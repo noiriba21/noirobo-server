@@ -4,7 +4,7 @@ require("dotenv").config();
 const { MongoClient } = require("mongodb");
 
 const img = (text) =>
-  `https://placehold.co/600x400/0B3D91/ffffff?text=${encodeURIComponent(text)}`;
+  `https://placehold.co/800x600/12161c/ff6a1a?text=${encodeURIComponent(text)}`;
 
 const make = (name, segment, category, price, rentalType, quantity, brand, model, condition) => ({
   name,
